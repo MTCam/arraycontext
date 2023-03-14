@@ -38,3 +38,7 @@ intersphinx_mapping = {
 # why this name is as global-sounding as it is.
 import sys
 sys._BUILDING_SPHINX_DOCS = True
+
+nitpick_ignore_regex = [
+    ["py:func", "pytato.function.trace_call"],
+]
